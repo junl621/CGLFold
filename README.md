@@ -1,17 +1,17 @@
 # CGLFold
 ### a contact-assisted de novo protein structure prediction using global exploration and loop perturbation sampling algorithm
 	
-Developer:
-		Jun Liu
-		College of Information Engineering
-		University of Zhejiang University of Technology, Zhejiang
-		Email: junl@zjut.edu.cn
+Developer:  
+        Jun Liu  
+        College of Information Engineering  
+        University of Zhejiang University of Technology, Zhejiang  
+        Email: junl@zjut.edu.cn  
 		
-Contact:
-		Guijun Zhang, Prof
-		College of Information Engineering
-		University of Zhejiang University of Technology, Zhejiang
-		Email: zgj@zjut.edu.cn
+Contact:  
+        Guijun Zhang, Prof  
+        College of Information Engineering  
+        University of Zhejiang University of Technology, Zhejiang  
+        Email: zgj@zjut.edu.cn  
 
 ## 1. Installation and Configuration
 Binaries for linux 64 bit system has been included in the package. The linux binary
