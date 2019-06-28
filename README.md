@@ -40,8 +40,8 @@ Please Follow the below steps to install and configurate CGLFold:
 ## 2. Description of input
 CGLFold requires four files to generate models:
 
-	-f		fasta					: fasta file
-	-c		cmap					: contact map file
+	-f	fasta			: fasta file
+	-c	cmap			: contact map file
 	-frag3	3mer_fragment_library	: fragment library with fragment lenth 3
 	-frag9	9mer_fragment_library	: fragment library with fragment lenth 9
 	
@@ -71,5 +71,3 @@ Please Follw the below steps folder to run CGLFold:
 The executable software and the source code of CGLFold is distributed free of charge 
 as it is to any non-commercial users. The authors hold no liabilities to the performance 
 of the program.
-
-	
