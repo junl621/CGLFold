@@ -29,13 +29,13 @@ Please Follow the below steps to install and configurate CGLFold:
    in Rosetta. copy and paste source code of 'protocols_b_6.src.settings' from /src 
    folder in CGLFold package to ~/Rosetta/main/source/src/ folder in Rosetta.
    
-3) compile Rosetta source code using the following commands:
-   $ cd ~/Rosetta/main/source/
-   $ ./scons.py -j<NumOfJobs> mode=release bin
+3) compile Rosetta source code using the following commands:  
+   $ cd ~/Rosetta/main/source/  
+   $ ./scons.py -j<NumOfJobs> mode=release bin  
    
-4) if you want to recompile CGLFold source code, use the following commands:
-   $ cd ~/CONFold/
-   $ g++ -o bin/CGLFold src/CGLFold.cpp
+4) if you want to recompile CGLFold source code, use the following commands:  
+   $ cd ~/CONFold/  
+   $ g++ -o bin/CGLFold src/CGLFold.cpp  
    
 ## 2. Description of input
 CGLFold requires four files to generate models:
@@ -59,10 +59,10 @@ five predicted model (model_X.pdb) and the filtered contact map.
 ## 4. Example
 Please Follw the below steps folder to run CGLFold:
 
-1) go to the example folder of CGLFold using the following command:
+1) go to the example folder of CGLFold using the following command:  
    $ cd ~/CONFold/example
 	
-2) run CGLFold with the following command:
+2) run CGLFold with the following command:  
    $ ./../bin/CGLFold -f ./input_files/fasta.txt -c input_files/contact.txt -frag3 input_files/3mer_fragment_library -frag9 input_files/9mer_fragment_library
 
 3) five models and the filtered contact map are generated in the output_files folder.	
