@@ -1,11 +1,6 @@
 # CGLFold
-The official repository for the protein structure prediction software CGLFold
-#####################################################################################
-		CGLFold：a contact-assisted de novo protein structure prediction using
-			global exploration and loop perturbation sampling algorithm
-		
-#####################################################################################
-
+### a contact-assisted de novo protein structure prediction using global exploration and loop perturbation sampling algorithm
+	
 Developer:
 		Jun Liu
 		College of Information Engineering
@@ -18,10 +13,7 @@ Contact:
 		University of Zhejiang University of Technology, Zhejiang
 		Email: zgj@zjut.edu.cn
 
-#####################################################################################
-1. Installation and Configuration
-#####################################################################################
-
+## 1. Installation and Configuration
 Binaries for linux 64 bit system has been included in the package. The linux binary
 was compiled using GCC 5.4.0. Users need to have these versions of GCC compilers 
 when using binaries.
@@ -45,10 +37,7 @@ Please Follow the below steps to install and configurate CGLFold:
    $ cd ~/CONFold/
    $ g++ -o bin/CGLFold src/CGLFold.cpp
    
-#####################################################################################
-2. Description of input
-#####################################################################################
-
+## 2. Description of input
 CGLFold requires four files to generate models:
 
 	-f		fasta					: fasta file
@@ -56,10 +45,7 @@ CGLFold requires four files to generate models:
 	-frag3	3mer_fragment_library	: fragment library with fragment lenth 3
 	-frag9	9mer_fragment_library	: fragment library with fragment lenth 9
 	
-#####################################################################################
-3. Description of output
-#####################################################################################
-	
+## 3. Description of output
 output files of CGLFold are stored in the 'example/output_files/' folder, including 
 five predicted model (model_X.pdb) and the filtered contact map.
 
@@ -70,10 +56,7 @@ five predicted model (model_X.pdb) and the filtered contact map.
 	model_5.pdb		secondary cluster centroid structure obtained by SPICKER
 	filtered_camp.txt	used to build the contact-based selection model
 	
-#####################################################################################
-4. Example
-#####################################################################################
-	
+## 4. Example
 Please Follw the below steps folder to run CGLFold:
 
 1) go to the example folder of CGLFold using the following command:
@@ -84,10 +67,7 @@ Please Follw the below steps folder to run CGLFold:
 
 3) five models and the filtered contact map are generated in the output_files folder.	
 
-#####################################################################################
-5. DISCLAIMER
-#####################################################################################
-
+## 5. DISCLAIMER
 The executable software and the source code of CGLFold is distributed free of charge 
 as it is to any non-commercial users. The authors hold no liabilities to the performance 
 of the program.
